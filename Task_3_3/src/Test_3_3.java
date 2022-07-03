@@ -5,5 +5,10 @@ public class Test_3_3 {
         for(int i = 0; i < n; i++){
             System.out.println(arr[i]);
         }
+
+        int[] arr2 = CalcPow8.CalculatePow8Shift(n);
+        for(int i = 0; i < n; i++){
+            System.out.println(arr2[i]);
+        }
     }
 }
